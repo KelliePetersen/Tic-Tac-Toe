@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  cursor: pointer;
+  border: 2px solid black;
+  height: 150px;
+  width: 150px;
+  vertical-align: center;
+  font-family: "Comic Sans MS", serif;
+  font-size: 100px;
+}
