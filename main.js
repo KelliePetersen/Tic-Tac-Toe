@@ -24,8 +24,6 @@ let computerPlayer = 'O';
 })();
 
 startGameButton.addEventListener('click', startGame);
-container.addEventListener('click', turnClick, false);
-
 
 function startGame() {
   endGame.classList.add('hidden');
@@ -35,6 +33,7 @@ function startGame() {
     item.classList.remove('winningCells');
     item.classList.remove('winningCellsComputer');
   }
+  container.addEventListener("click", turnClick, false);
 }
 
 function turnClick(square) {
