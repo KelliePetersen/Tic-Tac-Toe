@@ -36,3 +36,11 @@ button {
 .hidden {
   display: none;
 }
+
+.winningCells {
+  background-color: blue;
+}
+
+.winningCells {
+  background-color: red;
+}
